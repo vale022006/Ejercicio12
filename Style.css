@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 40px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.box {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: 2px solid #444;
+    resize: none;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+#counter {
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+    font-size: 14px;
+    color: #444;
+}
+
+/* Cuando llega al límite */
+.error {
+    border-color: red !important;
+}
+
+.error-text {
+    color: red !important;
+}
